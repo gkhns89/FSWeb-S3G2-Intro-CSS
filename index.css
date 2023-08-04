@@ -1,0 +1,85 @@
+* {
+  font-family: "Roboto Mono";
+}
+.container nav a {
+  display: inline-block;
+  color: white;
+  padding: 0.5% 3%;
+  font-size: 90%;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 70px 30px 70px;
+}
+.container nav a:hover {
+  color: rgb(75, 41, 19);
+  transition: 0.5s ease;
+  background-color: #ae8b76 !important;
+}
+.to-left {
+  float: left;
+}
+.to-right {
+  float: right;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+.font-change {
+  font-family: "Chelsea Market";
+}
+header div img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  float: left;
+  object-fit: cover;
+  object-position: left top;
+}
+.height-change {
+  display: inline-block;
+  height: 200px;
+}
+
+.bg-color {
+  background-color: #ddb69f;
+  color: white;
+}
+.new-container {
+  margin: 0 auto;
+  width: 22%;
+  text-align: center;
+}
+.resize {
+  height: 150px;
+  width: auto;
+}
+
+footer img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+footer nav a {
+  display: inline-block;
+  color: white;
+  padding: 0.5% 2%;
+  font-size: 70%;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  margin: 15px 20px;
+}
+footer nav a:hover {
+  color: rgb(20, 46, 6);
+  transition: 0.5s ease;
+  background-color: #658d5e !important;
+}
+footer {
+  background-color: #f9e7dc;
+  text-align: center;
+}
